@@ -1,4 +1,4 @@
-# WMATA PIDS v9 (Unofficial Demo)
+# WMATA PIDS
 
 Features:
 - Real-time arrivals (per-station predictions)
