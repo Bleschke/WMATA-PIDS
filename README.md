@@ -1,4 +1,4 @@
-# WMATA PIDS
+# WMATA PIDS (unofficial)
 
 Features:
 - Real-time arrivals (per-station predictions)
