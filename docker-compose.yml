@@ -1,0 +1,15 @@
+
+version: "3.9"
+services:
+  wmata-pids:
+    build: .
+    image: wmata-pids:latest
+    ports:
+      - "5000:5000"
+    # Option A: pass the key directly
+    # environment:
+    #   WMATA_API_KEY: "YOUR_KEY_HERE"
+    # Option B: use .env (app also reads it for persistence)
+    env_file:
+      - .env
+    restart: unless-stopped
