@@ -15,4 +15,4 @@ docker run --rm -it -p 5000:5000 -e WMATA_API_KEY=YOUR_KEY wmata-pids:latest
 echo 'WMATA_API_KEY="YOUR_KEY"' > .env
 docker compose up --build
 ```
-Open: http://localhost:5000/?station=F02&tv=1
+Open: http://localhost:5000
